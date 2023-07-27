@@ -23,8 +23,12 @@
         justify-content: space-between;
         width: 800px;
         height: auto;
+    
        }
-     
+      .rd-section{
+        flex-direction: column;
+      }
+
     
     }
     @media (max-width : 903px) {
@@ -41,4 +45,19 @@
 
 
 }
-
+.img-2ndsection{
+    width: 90px;
+}
+.imge-3rdsection{
+    width: 183px;
+}
+h1,h2{
+    font-size: 22px;
+    
+}
+.rd-section{
+background-color: white;
+}
+.maga{
+    background-color: yellow;
+}
