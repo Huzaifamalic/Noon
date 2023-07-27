@@ -2,3 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+
+    @media (max-width : 1101px) {
+        body{
+            background-color: yellow;
+        }
+        input{
+            display: none;
+        }
+       table,td{
+        display: none;
+       }
+       li{
+        display: none;
+       }
+       .navbar{
+        margin-left: 20px;
+        padding: 8px ;
+        gap: 80px;
+        justify-content: space-between;
+        width: 800px;
+        height: auto;
+       }
+     
+    
+    }
+    @media (max-width : 903px) {
+        .img-8-9{
+            display: none;
+    }
+}
+        
+    
+@media(min-width : 1101px){
+    .a-tag{
+        display: none;
+    }
+
+
+}
+
