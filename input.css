@@ -17,23 +17,41 @@
         display: none;
        }
        .navbar{
-        margin-left: 20px;
-        padding: 8px ;
+        margin-left: 50px;
+        padding: 20px ;
         gap: 80px;
-        justify-content: space-between;
+        justify-content: center;
         width: 800px;
         height: auto;
+        
     
+       }
+       .img-logo{
+        display: none;
+       }
+       @media (max-width : 1101px){
+        .navbar
        }
       .rd-section{
         flex-direction: column;
       }
-
+ .fith-s1{
+    flex-direction: column;
+}
     
     }
     @media (max-width : 903px) {
         .img-8-9{
             display: none;
+            
+
+    }
+    .fourth-sextion{
+        flex-direction:column ;
+
+    }
+    .img-logo{
+        display: none;
     }
 }
         
@@ -60,4 +78,44 @@ background-color: white;
 }
 .maga{
     background-color: yellow;
+}
+/* section fourth start */
+.d-f{
+    display: flex;
+}
+.fs-s1{
+    background-color: white;
+}
+
+.srction-fourth-img{
+    width: 179px;
+}
+.fourth-section{
+    background-color: rgb(241 244 253);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.h2{
+   font-size: 24px;
+}
+.fs-2s{
+    margin-top: 8px;
+}
+
+/* section fourth end */
+/* fith sec star */
+
+
+.fivth-sectin{
+    background-color: rgb(221 221 221);
+    width: 1290px;
+}
+.img-five{
+width: 1290px;
+}
+.fivth-img{
+    width: 167px;
 }
